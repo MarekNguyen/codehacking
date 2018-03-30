@@ -15,12 +15,12 @@
         {!! Form::select('role_id',[''=>'Choose Option'] + $roles,null,['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
-        {!! Form::label('is_active','Status: ') !!}
+        {!! Form::label('is_active','Photo: ') !!}
         {!! Form::select('is_active', array(1 =>'Active',0 => 'Not Active'), 0,['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
-        {!! Form::label('file','File: ') !!}
-        {!! Form::file('file',null,['class'=>'form-control']) !!}
+        {!! Form::label('photo_id','File: ') !!}
+        {!! Form::file('photo_id',null,['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
         {!! Form::label('password','Password: ') !!}
